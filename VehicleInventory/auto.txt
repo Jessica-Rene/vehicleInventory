@@ -1,0 +1,5 @@
+Make: Lexus
+Model: RX450H
+Color: Black
+Year: 2013
+Mileage: 250000
