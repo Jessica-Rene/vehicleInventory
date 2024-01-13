@@ -138,10 +138,10 @@ public class AutomobileInventory {
 		
 		// remove vehicle if inventory matches otherwise display Vehicle not in inventory
 		boolean updateVehicle = inventory.removeIf(auto -> auto.getMake().equals(make) && 
-													auto.getModel().equals(model) && 
-													auto.getColor().equals(color) && 
-													auto.getYear() == year && 
-													auto.getMileage() == mileage);
+							   auto.getModel().equals(model) && 
+							   auto.getColor().equals(color) && 
+							   auto.getYear() == year && 
+							   auto.getMileage() == mileage);
 		
 		Automobile newAuto = new Automobile();
 		
@@ -194,10 +194,10 @@ public class AutomobileInventory {
 		
 		// remove vehicle if inventory matches otherwise display Vehicle was not in stock
 		boolean removeVehicle = inventory.removeIf(auto -> auto.getMake().equals(make) && 
-													auto.getModel().equals(model) && 
-													auto.getColor().equals(color) && 
-													auto.getYear() == year && 
-													auto.getMileage() == mileage);
+							   auto.getModel().equals(model) && 
+							   auto.getColor().equals(color) && 
+							   auto.getYear() == year && 
+							   auto.getMileage() == mileage);
 		
 		if (removeVehicle) {
 			System.out.println();
